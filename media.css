@@ -1,0 +1,195 @@
+@media(max-width:1100px){
+    .count{
+        flex-direction: column;
+    }
+}
+@media(max-width:1000px){
+        .feature1-container {
+        flex-wrap: wrap;
+        background: var(--blue);
+    }
+    .feature1-text {
+        width: 100%;
+    }
+    .feature1-img {
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+    }
+    .mobile-img {
+        display: block;
+    }
+    .med-img{
+        display: block;
+        margin: 0 auto 20px;
+    }
+    .main-img {
+        display: none;
+    }
+    .trngls{
+        display: none;
+    }
+    .ft2 {
+        padding: 10px;
+    }
+    .feature2-img{
+        order: 2;
+    }
+
+}
+@media(max-width:750px) {
+    .intro{
+        background: var(--blue) url(../img/back.jpg) 50%;
+    }
+    .nav-ul {
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+        transition: 0.5s;
+        background: var(--blue);
+        height: 100%;
+      width: 100%;
+        z-index: 2;
+    }
+    .nav-ul.active{
+        transform: translateX(0);
+    }
+    .mini-menu {
+        display: block;
+        outline: none;
+        position: fixed;
+        z-index: 2;
+    }
+    .back.show {
+        display: block;
+        outline: none;
+        z-index: 2;
+    }
+    .nav-a{
+        color: var(--white);
+    }
+    .nav-li {
+        padding: 21px 0;
+        display: block;
+        text-align: center;
+        width: 100vw;
+        background: var(--blue);
+    }
+    .nav-li:hover {
+        background: var(--white);
+        max-width: 100%;
+        color: var(--blue);
+    }
+    .logo {
+        order: -2;
+        height: auto;
+        top: 0;
+        padding: 0;
+        background: var(--white);
+        max-width: 100%;
+    }
+    .trngls {
+        display: none;
+    }
+
+    .intro {
+        width: auto;
+        height: auto;
+    }
+    .intro-welcome {
+        width: auto;
+        height: auto;
+    }
+    .text p {
+        padding: 30px 0;
+    }
+    .feature1-container {
+        flex-wrap: wrap;
+    }
+    .feature1-img img{
+        max-width: auto;
+    }
+    .feature1-text{
+        height: 200px;
+    }
+    .ft2 {
+    padding: 20px 30px 0;
+}
+    .service-container p {
+        padding: 0 30px;
+    }
+    .service-container h2{
+        padding: 15px 0 15px;
+        margin: 0 auto;
+    }
+    .ft2-h {
+        padding: 15px 0 15px;
+    }
+    .order-text p{
+        padding: 0 15px 20px;
+    }
+    .btn-order {
+        padding: 25px 50px;
+    }
+    .footer-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .visit-sedona{
+        padding-bottom: 20px;
+    }
+}
+@media(max-width:650px){
+    ul{
+        flex-direction: column;
+        padding: 0;
+    }
+    li {
+        max-width: 100%;
+        padding: 15px 0;
+        border-bottom: 1px solid var(--blue);
+    }
+    h3 {
+        padding: 0;
+    }
+    .service2-container ul {
+        padding: 0;
+    }
+    .service2-container p{
+        margin: 0 auto;
+    }
+
+}
+@media(max-width:500px) {
+    .intro-welcome.mobile-img{
+        display:block;
+        padding: 40px;
+    }
+    .intro-welcome{
+        margin: 40px auto;
+    }
+    .main-img {
+        display: none;
+    }
+    .med-img{
+        display: none;
+    }
+    .small-img{
+        display: block;
+    }
+    .intro{
+        background: var(--blue) url(../img/back.jpg) 50% fixed;
+    }
+    .text p {
+        padding: 20px 15px;
+    }
+    .text h2 {
+        font-size: 18px;
+        padding: 20px 0 0;
+    }
+    h4 {
+        padding: 30px 0 20px;
+    }
+}

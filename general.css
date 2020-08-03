@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+html {
+	--black: #000;
+	--white: #fff;
+	--blue: #81B3D2;
+	--greyText: #333333;
+	--brown: #766357;
+	--fzP: 14px;
+	--fzTitle: 21px;
+	--bold: 700;
+	--reg: 400;
+	--ptSans: 'PT Sans', sans-serif;
+
+}
+body {
+	font-family: var(--ptSans);
+	text-transform: uppercase;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 1920px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.mobile-img {
+	display: none;
+}
+.mini-menu {
+	display: none;
+}
